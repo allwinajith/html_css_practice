@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000d9;
+  background-color: #efeae3;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
   height: 90px;
   width: 90px;
   border-radius: 100%;
-  background: lightgreen;
+  background: #998235;
   position: relative;
 }
 
@@ -28,58 +28,50 @@ body {
   left: 60px;
   top: 10px;
   border-radius: 100%;
-  background: lightgreen;
+  background: #998235;
+  display: grid;
+  place-items: center;
 }
 
 .inside-large-circle {
   height: 25px;
   width: 8px;
-  background: darkgreen;
+  background: #1a4341;
   position: absolute;
   top: 32px;
   left: 30px;
 }
 
-.outer-ring {
-  height: 40px;
-  width: 40px;
-  background: white;
-  border-radius: 50%;
-  position: relative;
-  top: 15px;
-  left: 16px;
-}
-
 .inside-circle {
   height: 30px;
   width: 30px;
-  background: darkgreen;
+  background: #1a4341;
   border-radius: 100%;
-  position: absolute;
-  top: 5.8px;
-  left: 5px;
+  border:5px solid #efeae3
 }
 
 .line {
   height: 13px;
   width: 120px;
-  background-color: lightgreen;
+  background-color: #1a4341;
 }
 
 .finalBox {
   height: 20px;
-  width: 30px;
+  width: 28px;
   border-radius: 6px;
-  background-color: lightgreen;
+  background-color: #998235;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2px;
+  position: relative;
+  left: -1px;
 }
 .endKey {
   height: 3px;
-  width: 16px;
-  background-color: darkgreen;
+  width: 12px;
+  background-color: #1a4341;
   border-radius: 10px;
 }
