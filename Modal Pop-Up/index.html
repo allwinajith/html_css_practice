@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Modal Pop-Up</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form id="inp">
+      <header>
+        <span id="newUser">New User</span>
+        <span id="X_close" >X</span>
+      </header>
+      <section>
+        <div>
+          <span id="fName" >Name :</span>
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+          <span id="Email" >Email :</span>
+          <input type="email" name="mail" id="mail">
+        </div>
+        <div>
+          <span id="ph" >Phone :</span>
+          <input type="text" name="pNum" id="pNum">
+        </div>
+      </section>
+      <footer>
+        <button type="button" id="subBtn">Submit</button>
+        <button type="reset" id="clr" onclick="clrData()">Clear</button>
+      </footer>
+    </div>
+  </form>
+    <p id="openModal">Open Pop-Up</p>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+

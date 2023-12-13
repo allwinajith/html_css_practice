@@ -1,0 +1,94 @@
+body{
+    position: relative;
+}
+#container{
+    height: 30vh;
+    width:60vh ;
+    border: 1px solid;
+    position: relative;
+    background-color: #84cff11f;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+header{
+    margin-top: 10px;
+    border-bottom: 1px solid;
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid;
+}
+
+footer{
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+}
+
+button{
+    padding: 3px;
+    cursor: pointer;
+}
+
+#subBtn{
+    background-color: rgb(73, 158, 73);
+    color: white;
+    border: none;
+}
+
+#clr{
+    background-color: rgb(189, 70, 70);
+    color: white;
+    border: none;
+}
+
+#X_close{
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    padding: 2px;
+    background-color: rgb(189, 70, 70);
+    color: white;
+    cursor: pointer;
+}
+
+#newUser{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#openModal{
+    display: inline-flex;
+    padding: 5px;
+    font-size: 18px;
+    color: aliceblue;
+    background: black;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    margin: 20% 45%;
+}
+
+#openModal:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+#X_close:active, #clr:active{
+    background-color: red;
+}
+
+#subBtn:active{
+    background-color: green;
+}
